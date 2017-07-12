@@ -1,3 +1,6 @@
+# Scrip takes a CAN trace and looks for TP messages, extract the packages 
+# and convert to ascii for easy visualization 
+
 import re # import regular expression module
 
 # regular expression shall contain at least 2 groups CAN id and data (8 bytes)
